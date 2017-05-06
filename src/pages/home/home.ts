@@ -7,7 +7,7 @@ import { NavController, Platform } from 'ionic-angular';
 })
 export class HomePage {
   platformList: string = '';
-  isApp: boolean = false;
+  isApp: boolean = true;
 
   constructor(
     public navCtrl: NavController,
